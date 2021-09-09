@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QAS - Runner" verbose="0">
+	<test name="Runner QAS"
+		enabled="true">
+		<classes>
+			<class
+				name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"></class>
+		</classes>
+	</test>
+</suite>
